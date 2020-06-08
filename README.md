@@ -2,8 +2,29 @@
 
 Robótica 2020 - Prova 2 - AF 
 
+# Procedimento
+
+Faça o procedimento, substituindo SEUGIT pelo seu nome de usuário do Github.
+
+Faça dentro do catkin_ws/src 
+
+    git clone --bare https://github.com/mirwox/p2.git
+    cd p2.git
+    git push --mirror https://github.com/SEUGIT/robot_p2.git
+    cd ..
+    rm -rf p2.git
+
+**Não se esqueça de adicionar o professor* com permissão de leitura.  Login **mirwox**
+
+Preencha [o formulário com endereço do seu repositório](https://forms.gle/qpWQsMy2Reg99LkH6)
+
+
+
+
 **Atenção**
 Para quem fez a Avaliação Inicial (também chamada P1), Vai ser permitido olhar a prova e sair sem dar commit.  Estas pessoas deverão fazer a SUB
+
+# Enunciado
 
 
 [Enunciado da prova](enunciado.md)
