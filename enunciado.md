@@ -48,11 +48,16 @@ Veja instruções sobre como baixar os vídeos necessários.
 
 ## Questão 1  (3.3 pontos)
 
-O padrão a seguir foi impresso numa folha. Alguém segurou este padrão em frente ao computador com a folha paralela à tela a uma distância de 1 m e obteve a imagem que está no arquivo `q1\imagem_1metro.png`, que também pode ser vista abaixo
+O padrão a seguir foi impresso numa folha. Alguém segurou este padrão em frente ao computador com a folha paralela à tela a uma distância de 1 m e obteve a imagem que está no arquivo [`q1\padrao_1m.png`](./q1/padrao_1m.png), que também pode ser vista abaixo
+
+**Padrão original**
 
 <img src=./q1/padrao.png></img>
 
-![](./q1/imagem_1metro.png)
+
+**Imagem obtida com a câmera a $1m$ de distância**
+
+![](./q1/padrao_1m.png)
 
 
 As distâncias presentes no padrão são as seguintes:
@@ -63,11 +68,11 @@ As distâncias presentes no padrão são as seguintes:
 
 Lembre-se ainda do modelo *pinhole* de câmera: 
 
-![](./q1/pinhole.png)
-
 <img src=q1/pinhole.png></img>
 
 Baixe o [vídeo padrao.mp4 neste link](https://alinsperedu.sharepoint.com/:f:/s/RobticaComputacional1.osem2020/EocJXBJnro9MmyeGm_J8EqEBygumF6unizAfZIsAxTebpQ?e=3Bubnr) e salve na pasta `q1`.
+
+O vídeo necessário para o trabalho se chama [padrao.mp4 e está disponível na pasta](./q1/padrao.mp4). 
 
 #### O que você deve fazer:
 
@@ -110,7 +115,12 @@ Você foi contratado por uma empresa de *media tracking* para monitorar quando o
 
 <img src=./q2/pomba_red.png width=50%></img>
 
-O vídeo `logomarca.mp4` contém o vídeo de um campeonato de Mountain Bike. Deve ser baixado [neste link]((https://alinsperedu.sharepoint.com/:f:/s/RobticaComputacional1.osem2020/EocJXBJnro9MmyeGm_J8EqEBygumF6unizAfZIsAxTebpQ?e=3Bubnr)) e salvo na pasta `q2`.
+Créditos: Esta imagem é baseada no arquivo [https://commons.wikimedia.org/wiki/File:Bird_template.svg](https://commons.wikimedia.org/wiki/File:Bird_template.svg)
+
+O vídeo `logomarca.mp4` contém o vídeo de um campeonato de Mountain Bike e deve estar na pasta `q2`. 
+
+Créditos: Este vídeo é baseado no material original de Slavik Petr e está disponível [neste link](https://vimeo.com/67126122).
+
 
 
 <img src="q2/mtb.png"></img>
@@ -227,7 +237,7 @@ Depois:
 |---|---|
 | Não executa | 0 |
 | Consegue segmentar os pixels em objetos sem identificar sua esfera | 1.0 |
-| Identifica qual a esfera correta | 3.0 |
+| Identifica qual a esfera correta | 2.0 |
 | Faz a abordagem baseada em câmera e laser para se aproximar corretamente | 3.3 | 
 
 
