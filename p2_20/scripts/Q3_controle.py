@@ -3,6 +3,8 @@
 
 # Sugerimos rodar com:
 # roslaunch turtlebot3_gazebo  turtlebot3_empty_world.launch 
+#
+# Esta solução pode ser vista em: https://youtu.be/GKDZPcwf2WU
 
 
 from __future__ import print_function, division
@@ -58,6 +60,7 @@ def go_to(x1, y1, pub):
     # https://web.microsoftstream.com/video/f039d50f-3f6b-4e01-b45c-f2bffd2cbd84
 
     while h > 0.3:      
+        print("Goal ", x1,",",y1)
         # Rotacao
         ang_goal = math.atan2(delta_y,delta_x)  
         ang_atual = rad_z # rad_z muda automaticamente via global e odometria
@@ -86,16 +89,17 @@ def go_to(x1, y1, pub):
         y0 = y
         delta_x = x1 - x0
         delta_y = y1 - y0
-        h = math.sqrt(delta_x**2 + delta_y**2)        
-
-
-
-
-
+        h = math.sqrt(deltScreencast from 15 06 2020 17:39:42
 
 if __name__=="__main__":
 
     rospy.init_node("q3")
+
+    # Vertices do triangulo
+    lado = 3.5
+    # O (0,0) foi incluido duas vezes. Isso nao eh estritamente necessario
+    verts = [(0,0), (-lado/2,0), (0, lado*math.sqrt(3)/2.0),(lado/2,0), (0,0)]
+
 
     # Velocidades
     zero = Twist(Vector3(0,0,0), Vector3(0,0,0))
@@ -112,4 +116,6 @@ if __name__=="__main__":
 
     while not rospy.is_shutdown():
         rospy.sleep(0.5)    
-        go_to(3,5, velocidade_saida)
+        for p in verts:
+            go_to(p[0],p[1], velocidade_saida)
+            rospy.sleep(1.0)
