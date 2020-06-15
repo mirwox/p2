@@ -3,6 +3,9 @@
 
 # Este NÃO é um programa ROS
 
+# Video que mostra esta solucao em execucao
+# https://youtu.be/vNvM2JPA4Tg
+
 from __future__ import print_function, division 
 
 import cv2

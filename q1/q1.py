@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# Vídeo deste código rodando
+# https://youtu.be/SjwakdVQnI8
 
 # Este NÃO é um programa ROS
 
