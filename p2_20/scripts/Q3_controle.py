@@ -49,17 +49,18 @@ v_lin = 0.3
 
 
 def go_to(x1, y1, pub):
-    x0 = x
-    y0 = y
+    x0 = x # Vai ser atualizado via global e odometria
+    y0 = y # global e odometria
     delta_x = x1 - x0
     delta_y = y1 - y0
 
-    h = math.sqrt(delta_x**2 + delta_y**2)
-
+    h = math.sqrt(delta_x**2 + delta_y**2) # Distancia ate o destino. Veja 
+    # https://web.microsoftstream.com/video/f039d50f-3f6b-4e01-b45c-f2bffd2cbd84
+    
     while h > 0.3:      
         # Rotacao
         ang_goal = math.atan2(delta_y,delta_x)  
-        ang_atual = rad_z
+        ang_atual = rad_z # rad_z muda automaticamente via global e odometria
         dif_ang = ang_goal - ang_atual
         delta_t = abs(dif_ang)/v_ang
         # Twist
