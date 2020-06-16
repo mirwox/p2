@@ -36,7 +36,7 @@ def crosshair(img, point, size, color):
     
 def texto(img, a, p, thick=1,sz=1 ):
     """Escreve na img RGB dada a string a na posição definida pela tupla p"""
-    cv2.putText(img, str(a), p, font,sz,(0,50,100),thick,cv2.LINE_AA)
+    cv2.putText(img, str(a), p, font,sz,(200,200,0),thick,cv2.LINE_AA)
       
 
 def center_of_contour(contorno):
