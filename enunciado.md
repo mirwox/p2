@@ -1,22 +1,13 @@
 # Robótica Computacional
 
-## Prova AF
+## Prova AF GABARITO
 
-**Você deve escolher somente 3 questões para fazer. Todo mundo que fizer pelo menos uma questão ganha 0.1**
-
-
-Nome:_______________
+[As questões estão no branch master deste mesmo repositório. Clique aqui](https://github.com/mirwox/p2)
 
 
-Questões que fez:____________
+[MS Stream com comentários sobre esta prova e resolução da Q3](https://web.microsoftstream.com/video/f039d50f-3f6b-4e01-b45c-f2bffd2cbd84) **Requer conta de estudante al.insper.edu.br**
 
-
-
-Observações de avaliações nesta disciplina:
-* É necessário ter pelo menos $5.0$ de nota em uma das provas
-* Se você já tem uma nota, se quiser pode ver esta prova e sair sem dar commit para fazer a Sub em 18/06.
-* Se você já fez a P1 e fizer esta prova, pode fazer a SUB com efeito delta (fica com no máximo 5.0)
-* Tenha os repositórios https://github.com/Insper/robot20/ e https://github.com/arnaldojr/my_simulation atualizados em seu catkin_ws/src .
+* Tenha os repositórios https://github.com/Insper/robot20/ e https://github.com/arnaldojr/my_simulation atualizados em seu catkin_ws/src .
 * Você pode consultar a internet ou qualquer material, mas não pode se comunicar com pessoas ou colegas a respeito da prova
 * Ponha o nome no enunciado da prova no Github
 * Faça commits e pushes frequentes no seu repositório (tem dicas [no final deste arquivo](./inst
@@ -34,19 +25,19 @@ rucoes_setup.md))
 
 Existe algumas dicas de referência rápida de setup [instrucoes_setup.md](instrucoes_setup.md)
 
-**Integridade Intelectual**
 
-Se você tiver alguma evidência de fraude cometida nesta prova, [use este serviço de e-mail anônimo](https://www.guerrillamail.com/pt/compose)  para informar ao professor.  Ou [este formulário](https://forms.gle/JPhqjPmuKAHxmvwZ9)
-
-# Setup 
-
-Veja instruções sobre como baixar os vídeos necessários. 
 
 
 # Questões
 
 
 ## Questão 1  (3.3 pontos)
+
+**[Discussão da questão](./q1/Q1.ipynb)**
+
+[Solução da questão](./q1/q1.py)
+
+[Vídeo do gabarito](https://youtu.be/SjwakdVQnI8)
 
 O padrão a seguir foi impresso numa folha. Alguém segurou este padrão em frente ao computador com a folha paralela à tela a uma distância de 1 m e obteve a imagem que está no arquivo [`q1\padrao_1m.png`](./q1/padrao_1m.png), que também pode ser vista abaixo
 
@@ -108,6 +99,12 @@ Casos intermediários ou omissos da rubrica serão decididos pelo professor.
 
 ## Questão 2 (3.3 pontos)
 
+[Discussao da questão](./q2/Q2.ipynb)
+
+[Solução da questão](./q2/q2.py)
+
+[Vídeo do gabarito](https://youtu.be/SjwakdVQnI8)
+
 #### Contexto
 
 Você foi contratado por uma empresa de *media tracking* para monitorar quando o logotipo de uma empresa é colocado sobre a programação de uma TV.
@@ -155,6 +152,13 @@ Casos intermediários ou omissos da rubrica serão decididos pelo professor.
 
 
 ## Questão 3  (3.3 pontos)
+
+[Solução da questão](./p2_20/scripts/Q3_controle.py)
+
+[Vídeo do gabarito](https://youtu.be/GKDZPcwf2WU)
+
+[A explicação sobre como fazer a função go_to(x,y) está detalhada neste vídeo](https://web.microsoftstream.com/video/f039d50f-3f6b-4e01-b45c-f2bffd2cbd84)
+
 
 #### O que é para fazer
 
@@ -204,6 +208,11 @@ Casos intermediários ou omissos da rubrica serão decididos pelo professor.
 
 ## Questão 4 (3.3 pontos)
 
+[Discussão da parte OpenCV da resposta](./Q4/Q4.ipynb)
+
+[Solução da questão](./p2_20/scripts/Q4_formas.py)
+
+
 A sua esfera designada serã da seguinte forma
 
 *Escreva seu RA na prova*
@@ -242,4 +251,6 @@ Depois:
 
 
 Casos intermediários ou omissos da rubrica serão decididos pelo professor.
+
+**Nota: a rubrica saiu erroneamente com valor 3.0 para "identifica a esfera correta. O professor vai honrar esta rubrica como divulgada originalmente**
 
