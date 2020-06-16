@@ -212,14 +212,16 @@ Casos intermediários ou omissos da rubrica serão decididos pelo professor.
 
 [Solução da questão](./p2_20/scripts/Q4_formas.py)
 
+[Vídeo do gabarito](https://youtu.be/hxMqlZmcrXk)
 
-A sua esfera designada serã da seguinte forma
+
+A sua esfera designada será da seguinte forma
 
 *Escreva seu RA na prova*
 
-Se seu RA for impar, a esfera serã verde
+Se seu RA for impar, a esfera será verde
 
-Se seu RA for par, a esfera serã azul
+Se seu RA for par, a esfera será azul
 
 
 
