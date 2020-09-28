@@ -34,13 +34,20 @@ def scaneou(dado):
     ranges = np.array(dado.ranges).round(decimals=2)
     minv = dado.range_min 
     maxv = dado.range_max
- 
+
+
+def processa_imagem(cv_image):
+    b = cv_image[:,:,0]
+    cv2.imshow("Azul", b)
+
+
 # A função a seguir é chamada sempre que chega um novo frame
 def roda_todo_frame(imagem):
     print("frame")
     try:
         cv_image = bridge.compressed_imgmsg_to_cv2(imagem, "bgr8")
         cv2.imshow("Camera", cv_image)
+        processa_imagem(cv_image)
         cv2.waitKey(1)
     except CvBridgeError as e:
         print('ex', e)
